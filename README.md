@@ -105,13 +105,14 @@ tail -f /var/log/syslog | grep dnsmasq
 ## 🛠️ Customization (Modular Version)
 
 Edit these variables at the top of the script:
+```bash
 IF_LAN="eth1"                  # Interface connected to Pineapple
 IF_WAN="eth0"                  # Interface to Internet
 LAN_IP="172.16.42.42/24"
 DHCP_START="172.16.42.50"
 DHCP_END="172.16.42.150"
 DNS_SERVERS="8.8.8.8,1.1.1.1"
-
+```
 
 ## 🔐 Security Notes
 
