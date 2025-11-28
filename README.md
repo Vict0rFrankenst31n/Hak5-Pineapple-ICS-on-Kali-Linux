@@ -1,5 +1,5 @@
 # Hak5-Pineapple-ICS-on-Kali-Linux
-USB-C ICS on a Bare Metal Kali Linux Set up
+USB-C Internet Connection Sharing (ICS) on a Bare Metal Kali Linux Set up
 
 # Hardware layout
 Internet ←→ [Your home/corporate router/firewall] ←→ eth0 (Kali laptop) ←→ eth1 ←→ WiFi Pineapple ←→ wireless clients (targets)
