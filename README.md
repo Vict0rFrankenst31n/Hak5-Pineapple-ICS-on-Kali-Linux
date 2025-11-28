@@ -43,9 +43,12 @@ Simple, fast, and ready to deploy.
 
 ```bash
 wget https://raw.githubusercontent.com/Vict0rFrankenst31n/Hak5-Pineapple-ICS-on-Kali-Linux/refs/heads/main/pineapple-ics-hardened.sh
+```
+```bash
 chmod +x pineapple-ics-hardened.sh
+```
+```bash
 sudo ./pineapple-ics-hardened.sh
-
 ```
 ## 2. Modular Edition — modular-edition-pineapple-ics.sh
 
@@ -54,11 +57,10 @@ Clean, configurable, and reusable. Safe to source in other tools.
 Install once:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Vict0rFrankenst31n/Hak5-Pineapple-ICS-on-Kali-Linux/refs/heads/main/modular-edition-pineapple-ics.sh \
-    -o /usr/local/bin/modular-edition-pineapple-ics.sh
+wget https://raw.githubusercontent.com/Vict0rFrankenst31n/Hak5-Pineapple-ICS-on-Kali-Linux/refs/heads/main/modular-edition-pineapple-ics.sh
 ```
 ```bash
-sudo chmod +x /usr/local/bin/modular-edition-pineapple-ics.sh
+sudo chmod +x ./modular-edition-pineapple.sh
 ```
 
 Run anytime:
@@ -68,7 +70,7 @@ sudo modular-edition-pineapple-ics.sh
 
 Import individual functions:
 ```bash
-source /usr/local/bin/modular-edition-pineapple-ics.sh
+source /your/local/directory/modular-edition-pineapple-ics.sh
 ```
 ```bash
 setup_forward_chain   # example function
